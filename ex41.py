@@ -72,7 +72,7 @@ try:
 
             print question
 
-            raw_input(">  ")
+            raw_input(">")
             print "A: %s\n\n" % answer
 except EOFError:
     print "\nBye"
